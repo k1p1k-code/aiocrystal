@@ -2,7 +2,7 @@
 ```
 pip install aiocrystal
 ```
-
+Помогаю только здесь -https://t.me/+nTKwHDpH-DNiMjdi
 
 Библиотека полностью повтраяет структуру вложоности https://docs.crystalpay.io/
 
