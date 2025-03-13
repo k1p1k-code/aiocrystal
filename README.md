@@ -1,5 +1,4 @@
-![]('image/aiocrystal_logo.png')
-
+![](https://i.imgur.com/i4FY5vX.png)
 ```
 pip install aiocrystal
 ```
@@ -65,7 +64,7 @@ async def IsPayed(invoice: CallbackInvoice):
 async def AntiUnavailableIsPayed(invoice: CallbackInvoice):
     return invoice.state == InvoiceState.payed
 
-@cp.callback_invoice(IsPayed, AntiUnavailableIsPayed) #<- вохможность добавлять несколько фильтров
+@cp.callback_invoice(IsPayed, AntiUnavailableIsPayed) #<- возможность добавлять несколько фильтров
 async def pay_cp(invoice: CallbackInvoice):
     print(f'Пришло: {invoice.rub_amount}')
 
